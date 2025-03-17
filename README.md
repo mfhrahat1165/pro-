@@ -28,3 +28,29 @@
 </header>
 </body>
 </html>
+/* p{
+    color: brown;
+    border: 10px;
+    padding: 5px;
+    box-shadow: 2px color red;
+} */
+.navbar{
+    background-color: rgb(152, 194, 2);
+    border-radius: 12px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 3px 3px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+}
+.navbar li a :hover{
+    /* color: purple; */
+    background-color: crimson;
+}
